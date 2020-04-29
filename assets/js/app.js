@@ -269,7 +269,7 @@ attributionControl.onAdd = function (map) {
   div.innerHTML = "<span class='hidden-xs'>Developed by <a href='http://bryanmcbride.com'>bryanmcbride.com</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
   return div;
 };
-map.addControl(attributionControl);
+//map.addControl(attributionControl);
 
 var zoomControl = L.control.zoom({
   position: "bottomright"
